@@ -12,7 +12,6 @@ class Solution {
         }
         return c;
     }
-
     static long merge(int arr[], int l, int m, int h) {
         int temp[] = new int[h - l + 1];
         int i = l;
